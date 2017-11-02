@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    position:relative;
+}
+body{
+    font-size: 1em;
+    line-height: 1.5em;
+    color:#414142;
+    font-family: '黑体',serif;
+    background-color:#ededed;
+}
+#index-header{
+    background-color:#ededed;
+    padding:1em 0;
+    text-align:center;
+}
+#index-header a{
+    text-decoration: none;
+    color:#414142;
+}
+a:link{
+    color: #D64078;
+    text-decoration:none;
+}
+a:visited{
+    color: #D64078;
+}
+#index-header img{
+    vertical-align:middle;
+    max-width:100%;
+}
+#index-header span{
+    vertical-align:middle;
+    font-size:2em;
+    font-family:  '黑体', serif;
+    margin-left:2px;
+}
+#index-menu{
+    position: absolute;
+    top:-16px;
+    left:-20px;
+    width: 250px;
+    padding-top: 2em;
+    transform:rotate(-35deg) translate(-92px,22px);
+    transform-origin: 0 0;
+    background-color: whiteSmoke;
+    text-align: center;
+}
+.index-home-link{
+    margin-left:-1em;
+}
+#index-menu a{
+    display: block;
+    padding:.2em 0;
+    color: #8F8F8F;
+    text-shadow:0 1px 0 #EDEDED;
+}
+#index-menu a:hover{
+    background-color:rgb(220, 220, 220);
+}
+#index-main{
+    padding:1em;
+    margin:0 0 0 0;
+    background-color:white;
+}
+#index-about{
+    max-width:550px;
+    margin:0 auto 2em;
+    padding:0 1rem;
+}
+#index-about p{
+    margin:1em 0;
+}
+.index-nav-wrapper{
+    text-align:center;
+    padding:1em 0;
+    clear: both;
+}
+a.index-nav{
+    background-color: #D64078;
+    color: white;
+    border-radius:5px;
+    padding:.2em 0;
+    margin:0 1.5em;
+    width:10em;
+    display:inline-block;
+    text-decoration:none;
+    border:solid #b03060 1px;
+    border-bottom:solid #b03060 4px;
+    text-shadow:0 2px 0 #b03060;
+    transition:all 0.1s ease-out;
+}
+a.index-nav:active{
+    border-bottom:solid #b03060 1px;
+    top:4px;
+}
+#index-translator{
+    text-align: center;
+}
+#index-translations{
+    text-align:center;
+    max-width:400px;
+    margin:0 auto 1em;
+}
+#index-footer{
+    margin-top: 10px;
+}
+#index-share{
+    width: 280px;
+    margin:auto;
+}
+#index-share  ul li{
+    display: inline-block;
+}
+#index-advertisements{
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
+}
